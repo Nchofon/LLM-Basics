@@ -1,0 +1,42 @@
+.env
+.venv/
+__pycache__/
+.env.example
+
+# Data (local articles, datasets)
+data/
+
+# Additional secrets
+.env.*
+secrets/
+*.pem
+*.key
+credentials.json
+
+# Additional virtual env names
+venv/
+env/
+
+# Python / notebook artifacts
+*.py[cod]
+*.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# LLM local assets
+models/
+checkpoints/
+*.gguf
+*.bin
+*.safetensors
+.cache/
+wandb/
+mlruns/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
