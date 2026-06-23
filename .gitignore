@@ -40,3 +40,6 @@ Thumbs.db
 .idea/
 .vscode/
 
+# Download scripts
+scripts/download_articles.py
+
